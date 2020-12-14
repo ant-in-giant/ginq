@@ -3,8 +3,9 @@ require_once dirname(dirname(__FILE__)) . "/src/Ginq/Core/Dictionary.php";
 require_once dirname(dirname(__FILE__)) . "/src/Ginq/Core/EqualityComparer.php";
 
 use \Ginq\Core\Dictionary;
+use PHPUnit\Framework\TestCase;
 
-class DictionaryTest extends PHPUnit_Framework_TestCase
+class DictionaryTest extends TestCase
 {
     /**
      * Runs the test methods of this class.

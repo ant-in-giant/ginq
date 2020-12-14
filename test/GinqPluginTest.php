@@ -3,8 +3,9 @@
 require_once dirname(dirname(__FILE__)) . "/src/Ginq.php";
 
 use Ginq\Ginq;
+use PHPUnit\Framework\TestCase;
 
-class GinqPluginTest extends PHPUnit_Framework_TestCase
+class GinqPluginTest extends TestCase
 {
     /**
      * Runs the test methods of this class.

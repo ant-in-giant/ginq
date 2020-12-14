@@ -1,6 +1,7 @@
 <?php
 use Ginq\Lambda\SyntaxError;
 use Ginq\OrderingGinq;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\PropertyAccess\Exception\InvalidPropertyPathException;
 use Symfony\Component\PropertyAccess\Exception\NoSuchPropertyException;
 use Symfony\Component\PropertyAccess\Exception\UnexpectedTypeException;
@@ -24,7 +25,7 @@ class Person
 /**
  * Test class for Ginq.
  */
-class GinqTest extends PHPUnit_Framework_TestCase
+class GinqTest extends TestCase
 {
     /**
      * Runs the test methods of this class.
